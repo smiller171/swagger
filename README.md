@@ -11,7 +11,7 @@
 This is a utility for automatically generating API documentation from annotations in Go code. It generates the documentation as JSON, according to the [Swagger Spec](https://github.com/wordnik/swagger-spec), and then displays it using [Swagger UI](https://github.com/swagger-api/swagger-ui).
 
 This tool was inspired by [Beego](http://beego.me/docs/advantage/docs.md), and follows the same annotation standards set by Beego.
-The main difference between this tool and Beego is that this generator doesn't depend on the Beego framework. You can use any framework to implement your API (or don't use a framework at all). You just add declarative comments to your API controllers, then run this generator and your documentation is ready! For an example of what such documentation looks like when presented via Swagger UI, see the Swagger [pet store example](http://petstore.swagger.wordnik.com/).
+The main difference between this tool and Beego is that this generator doesn't depend on the Beego framework. You can use any framework to implement your API (or don't use a framework at all). You just add declarative comments to your API controllers, then run this generator and your documentation is ready! For an example of what such documentation looks like when presented via Swagger UI, see the Swagger [pet store example](http://petstore.swagger.io/).
 
 <br>
 
